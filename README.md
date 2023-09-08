@@ -7,13 +7,13 @@ To get started, run the following commands:
 ```bash
 
 # Install dependencies
-npm install
+pnpm install
 
 # Generate Prisma database
 npx prisma generate
 
 # Start the dev server
-npm run dev
+pnpm run dev
 
 ```
 
