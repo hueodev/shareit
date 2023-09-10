@@ -34,6 +34,7 @@
 <style lang="scss">
 	.container {
 		position: relative;
+		top: 4rem;
 		display: grid;
 		place-items: center;
 	}
@@ -44,7 +45,7 @@
 		margin: 2rem;
 	}
 
-  label {
+	label {
 		margin: 0.2rem 0rem 0.2rem 0rem;
 	}
 
@@ -93,7 +94,7 @@
 	span {
 		position: absolute;
 		bottom: -6rem;
-    width: 28rem;
+		width: 28rem;
 		padding: 0.4rem 1.4rem;
 		border-radius: 0.2rem;
 		color: aliceblue;

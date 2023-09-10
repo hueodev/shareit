@@ -15,7 +15,7 @@
 <style lang="scss">
 	.container {
     position: relative;
-    top: 8rem;
+    top: 10rem;
     margin: 0 auto;
 		max-width: 750px;
 		text-align: center;

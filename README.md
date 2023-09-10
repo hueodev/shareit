@@ -1,4 +1,5 @@
 ## Shareit
+Share your secrets with the world anonymously with Shareit
 
 ## Getting started
 
@@ -19,8 +20,8 @@ npm run dev
 
 ## Roadmap
 
+- [x] Make the navbar responsive
 - [ ] Make the form page responsive
-- [ ] Make the navbar responsive
 
 ## Code
 
