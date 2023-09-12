@@ -26,6 +26,6 @@
 
 <style lang="scss">
 	.slot {
-		margin: 0rem 3rem 3rem;
+		padding: 2rem;
 	}
 </style>

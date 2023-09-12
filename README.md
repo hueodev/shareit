@@ -18,11 +18,6 @@ pnpm run dev
 
 ```
 
-## Roadmap
-
-- [x] Make the navbar responsive
-- [ ] Make the form page responsive
-
 ## Code
 
 All code is distributed under the [MIT license](LICENSE).  

@@ -35,18 +35,14 @@
 	.container {
 		position: relative;
 		top: 4rem;
-		display: grid;
-		place-items: center;
+    margin: 0 auto;
+    padding-right: 2.8rem;
+    max-width: 28rem;
 	}
 
 	.form {
 		display: grid;
 		gap: 0.6rem;
-		margin: 2rem;
-	}
-
-	label {
-		margin: 0.2rem 0rem 0.2rem 0rem;
 	}
 
 	input {
@@ -57,15 +53,16 @@
 	}
 
 	textarea {
+    position: relative;
 		resize: none;
 		height: 12rem;
-		padding: 1rem 1.4rem;
+		padding: 1rem 1.25rem;
 	}
 
 	input,
 	textarea {
 		display: block;
-		width: 28rem;
+		width: 100%;
 		border-radius: 0.2rem;
 		color: aliceblue;
 		background: #0f0f10;
@@ -83,8 +80,9 @@
 		border: none;
 		cursor: pointer;
 		color: aliceblue;
-		margin: 0.8rem 0rem 0rem;
+		margin: 0.8rem 0rem;
 		padding: 0.4rem 1.4rem;
+    width: 100%;
 		transition: all 300ms ease-in-out;
 		&:hover {
 			opacity: 0.7;

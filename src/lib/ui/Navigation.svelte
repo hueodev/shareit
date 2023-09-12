@@ -52,7 +52,7 @@
 	hr {
 		border: none;
 		border-bottom: 1px solid rgb(40, 40, 42);
-		margin: 1.17rem 0rem;
+		margin: 1.38rem 0rem;
 	}
 
 	.inactive {
@@ -88,9 +88,9 @@
 		width: 100%;
 		z-index: 1;
 		padding: 0rem 0rem 1.2rem;
-		background-color: rgba(17, 16, 16, 0.999);
+		background-color: rgb(15, 15, 16);
 		border-bottom: 1px solid rgb(40, 40, 42);
-		box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 0px;
 		.dropdown {
 			padding: 0rem 3rem;
 			display: flex;
