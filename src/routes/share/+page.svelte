@@ -34,15 +34,15 @@
 <style lang="scss">
 	.container {
 		position: relative;
-		top: 4rem;
-    margin: 0 auto;
-    padding-right: 2.8rem;
-    max-width: 28rem;
+		top: 2rem;
+		margin: 0 auto;
+		max-width: 28rem;
 	}
 
 	.form {
 		display: grid;
 		gap: 0.6rem;
+    padding-right: 2.8rem;
 	}
 
 	input {
@@ -53,7 +53,7 @@
 	}
 
 	textarea {
-    position: relative;
+		position: relative;
 		resize: none;
 		height: 12rem;
 		padding: 1rem 1.25rem;
@@ -82,7 +82,7 @@
 		color: aliceblue;
 		margin: 0.8rem 0rem;
 		padding: 0.4rem 1.4rem;
-    width: 100%;
+		width: 100%;
 		transition: all 300ms ease-in-out;
 		&:hover {
 			opacity: 0.7;
@@ -90,13 +90,15 @@
 	}
 
 	span {
-		position: absolute;
-		bottom: -6rem;
-		width: 28rem;
+		display: block;
+		position: relative;
+    font-size: .9rem;
+    top: 3rem;
+		max-width: 28rem;
+		text-align: center;
 		padding: 0.4rem 1.4rem;
 		border-radius: 0.2rem;
 		color: aliceblue;
-		text-align: center;
 	}
 
 	.success {
